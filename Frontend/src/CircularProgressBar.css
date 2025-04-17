@@ -1,0 +1,11 @@
+.circular-progress-bar {
+  position: relative;
+  width: 140px;
+  height: 140px;
+}
+
+.circle-progress {
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  transition: stroke-dashoffset 0.3s ease-in-out;
+}

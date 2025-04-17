@@ -1,0 +1,85 @@
+.add-patient-modal .btn-add-new-patient {
+  background-color: green;
+}
+
+.modal-content-add-patient {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-patient-search-result-modal {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-add-patient {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-add-patient-top {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.search-add-patient-top .btn-search-new-patient {
+  background-color: #5363ac;
+  height: 40px;
+  font-size: 14px;
+}
+
+.add-patient-search-result-modal {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.result-found-patient-row {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+
+.result-found-patient-row-label,
+.patient-search-result-title {
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.modal-content-add-patient .result-found-patient-data {
+  margin-left: 8px;
+  color: #46537c;
+}
+
+.search-add-patient-top .btn-search-new-patient:hover {
+  background-color: #26335d;
+}
+
+.add-patient-search-result-btn {
+  width: 120px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  background-color: #26335d;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 8px 15px;
+  font-size: 12.9px;
+  margin-top: 10px;
+}
+
+.btn-assigned {
+  background-color: #26335d;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: not-allowed;
+  font-size: 12.9px;
+  margin-top: 10px;
+}

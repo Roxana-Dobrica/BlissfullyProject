@@ -1,0 +1,222 @@
+.patient-settings {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px;
+  font-family: "Poppins";
+}
+
+.patient-settings h1,
+h2 {
+  font-size: 27px;
+  margin-top: 20px;
+  font-family: "Baloo 2";
+}
+.patient-settings h2 {
+  color: #263159;
+}
+
+.patient-settings h1 {
+  color: #263159;
+  font-weight: 700;
+}
+
+.settings-menu-patient {
+  margin-top: 20px;
+  margin-left: 70px;
+  margin-right: 120px;
+}
+
+.settings-menu-patient p:first-of-type {
+  margin-top: 30px;
+}
+
+.settings-patient-name {
+  display: flex;
+  flex-direction: row;
+}
+
+.settings-profile-patient {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.settings-profile-patient input,
+select {
+  border: none;
+  padding: 5px;
+  padding-left: 10px;
+  border-radius: 10px;
+  margin-top: 0px;
+  max-width: 350px;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.settings-profile-patient input:focus {
+  border: 2px solid #bfc8d9;
+  outline: none;
+}
+
+.settings-profile-patient label {
+  margin-bottom: 3px;
+  display: block;
+  margin-top: 14px;
+  font-weight: 500;
+  color: #263159;
+}
+
+.settings-patient-location {
+  display: flex;
+  flex-direction: row;
+}
+
+.settings-profile-patient p {
+  opacity: 0.4;
+  margin-top: 7px;
+  margin-bottom: 14px;
+}
+
+.settings-profile-patient h3 {
+  margin-bottom: 7px;
+  margin-top: 30px;
+  font-size: 27px;
+}
+
+.settings-patient-first-name,
+.settings-patient-city {
+  margin-right: 30px;
+}
+
+.patient-settings-button {
+  padding: 7px 30px;
+  border-radius: 7px;
+  cursor: pointer;
+  background-color: #3f417e;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 25px;
+  float: right;
+  transition: transform 0.2s;
+}
+
+.patient-settings-button:active {
+  transform: scale(1.05);
+}
+
+.settings-menu-patient p:hover {
+  cursor: pointer;
+  color: #625cbc;
+}
+
+.settings-menu-patient {
+  color: #4d5e80;
+  font-size: 16px;
+}
+
+.selected-menu-item-patient-settings {
+  font-weight: 700;
+  color: #4d468c;
+  font-size: 16px;
+}
+
+.patient-settings .settings-profile-title {
+  color: #3f417e;
+  font-family: "Poppins";
+  font-size: 20px;
+}
+
+.settings-info-secondary {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.field-value-settings {
+  color: #4d5e80;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.settings-patient-date-of-birth {
+  margin-top: 20px;
+}
+
+.change-password-input-login{
+  width:320px;
+  height:32px;
+  margin-top:10px;
+  border: 1px solid #758aae;
+  padding: 12px 15px;
+  margin: 8px 0;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+.patient-settings .patient-settings-reset-password-button{
+  background-color: #3f417e;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: "Poppins";
+  width:100px;
+  align-self:flex-end;
+}
+
+.settings-profile-subtitle{
+  font-size: 20px;
+  font-weight: 600;
+  color: #3f417e;
+  margin-top: 20px;
+  font-family:'Poppins';
+
+}
+
+.settings-security-patient{
+  margin-top: 20px;
+
+}
+
+.change-password-input-login{
+  color:#758aae;
+  font-size:14px;
+}
+
+.settings-profile-subtitle{
+  margin-top:30px;
+  font-size:18px;
+  color: #4d468c;
+}
+
+.introduce-email{
+  margin-top: 20px;
+  font-size:15px;
+  color: #968fd1;
+  margin-bottom:0px;
+}
+
+
+@media (max-width: 768px) {
+  .patient-settings {
+    flex-direction: column;
+    padding-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .settings-patient-name {
+    flex-direction: column;
+  }
+
+  .settings-patient-date-of-birth input {
+    width: 97%;
+  }
+
+  .patient-settings-button {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,114 @@
+.patient-profile-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 20px;
+  font-family: "Poppins";
+  font-size: 15px;
+  flex-wrap: wrap;
+}
+
+.patient-profile-container {
+  background-color: white;
+  border-radius: 20px;
+  padding: 18px;
+  margin-top: 20px;
+}
+
+.patient-profile-container h1 {
+  color: #263159;
+  font-family: "Baloo 2";
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.top-section-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-illustration {
+  width: 400px;
+  height: auto;
+}
+
+.profile-image {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+.patient-profile-container {
+  color: #314d5c;
+  border: 2px solid #e7e6e6;
+  padding: 30px 40px;
+}
+
+.patient-profile-information p {
+  text-align: center;
+}
+
+.patient-name-profile {
+  color: #263159;
+  font-family: "Baloo 2";
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.profile-icon {
+  width: 20px;
+  height: auto;
+  margin-right: 8px;
+  margin-bottom: 1px;
+}
+
+.profile-icon-calendar {
+  width: 18px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.profile-information-details {
+  margin-bottom: 15px;
+}
+
+.change-profile-image-btn {
+  background-color: #035e8c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-family: "Poppins";
+  margin-top: 10px;
+}
+
+.patient-profile-edit-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.edit-profile-btn {
+  border: none;
+  background-color: #f1e4ed;
+  align-self: flex-end;
+  padding: 7px 12px;
+  border-radius: 15px;
+  font-size: 14px;
+  color: #314d5c;
+}
+
+.icon-arrow {
+  width: 16px;
+  height: 16px;
+  align-self: center;
+  margin-left: 2px;
+}

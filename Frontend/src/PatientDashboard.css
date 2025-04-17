@@ -1,0 +1,510 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap");
+
+.full-width {
+  width: 100%;
+}
+
+.patient-dashboard {
+  display: flex;
+  overflow-x: hidden;
+  width: 100%;
+  background-color: #191c34;
+}
+
+.patient-dashboard .menu-patient {
+  width: 225px;
+  background-color: #2d325a;
+  height: 100%;
+  padding: 8px 20px 20px 0px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  font-size: 14px;
+  font-family: Poppins;
+  border-radius: 20px;
+  margin: 10px;
+  margin-right: 5px;
+  position: fixed;
+}
+
+.menu-spacer {
+  height: 200px;
+}
+
+.patient-dashboard .menu-patient .list-group {
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+}
+
+.patient-dashboard .menu-patient .list-group .list-group-item {
+  background-color: #2d325a;
+  border: none;
+  color: white;
+  margin: 0;
+  padding: 10px;
+  font-weight: 400;
+}
+
+.patient-dashboard .menu-patient .list-group .list-group-item.active {
+  background-color: #777fbb;
+  color: white;
+  border-top-right-radius: 17px;
+  border-bottom-right-radius: 17px;
+}
+
+.patient-dashboard
+  .menu-patient
+  .list-group
+  .list-group-item:not(.active):hover {
+  background-color: #222644;
+  color: white;
+  border-top-right-radius: 17px;
+  border-bottom-right-radius: 17px;
+}
+
+.patient-dashboard .menu-patient .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.logo-menu-patient {
+  width: 180px;
+  height: auto;
+  align-self: center;
+}
+
+.image-patient-menu {
+  width: 25px;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 8px;
+}
+
+.image-patient-menu-profile {
+  width: 30px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.image-patient-menu-journal {
+  width: 25px;
+  height: auto;
+}
+
+.tab-content {
+  margin: 10px;
+  margin-left: 245px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  height: 100vh;
+}
+
+.patient-dashboard-top-section {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.patient-dashboard-top-item {
+  padding: 20px;
+  padding-top: 15px;
+  border-radius: 15px;
+  height: 137px;
+  width: 31%;
+  min-width: 230px;
+}
+
+.patient-dashboard-top-item:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.patient-dashboard-top-item-title {
+  font-family: "Baloo 2";
+  font-weight: 700;
+  color: #252b56;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.patient-dashboard-top-item-title p {
+  margin: 0px;
+  margin-bottom: 7px;
+}
+
+.patient-dashboard-top-item-content {
+  font-family: "Poppins";
+  color: #191c34;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 63px;
+}
+.patient-dashboard-top-item:first-child {
+  background-color: #d1d6f5;
+}
+
+.patient-dashboard-top-item:nth-child(2) {
+  background-color: #e1f0ee;
+}
+
+.patient-dashboard-top-item:last-child {
+  background-color: #f5e1e1;
+}
+
+.patient-dashboard-top-item-image {
+  width: 40px;
+  height: 40px;
+  margin-top: -14px;
+  margin-left: 15px;
+}
+
+.patient-dashboard-middle-section {
+  background-color: white;
+  padding: 20px;
+  padding-top: 0px;
+  margin-top: -10px;
+  padding-bottom: 10px;
+}
+
+.patient-dashboard-middle-section h2 {
+  font-family: "Baloo 2";
+  font-weight: 700;
+  color: #252b56;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.patient-dashboard-bottom-section h2 {
+  font-size: 26px;
+}
+
+.patient-dashboard-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.patient-dashboard-middle-item-image {
+  width: 100%;
+  height: auto;
+  margin-top: -14px;
+  border-radius: 15px;
+  opacity: 0.9;
+}
+
+.patient-dashboard-middle-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.patient-dashboard-middle-item {
+  width: 24%;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.patient-dashboard-middle-item:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.patient-dashboard-middle-item-title {
+  font-family: "Poppins";
+  color: white;
+  font-size: 14px;
+  margin-top: 10px;
+  background-color: #136673;
+  padding: 5px 20px;
+  border-radius: 15px;
+  position: absolute;
+  bottom: 10px;
+}
+
+.patient-dashboard-middle-item-title p {
+  margin: 0px;
+}
+
+.patient-dashboard-center {
+  background-color: white;
+}
+
+.patient-dashboard-center {
+  width: 78%;
+}
+
+.patient-dashboard-right {
+  background-color: white;
+  width: 22%;
+  min-width: 290px;
+}
+
+.patient-dashboard-right .patient-profile-container-dashboard {
+  padding: 10px;
+  margin-right: 20px;
+  border: 2px solid #e5eaef;
+}
+.patient-dashboard-right
+  .patient-profile-container-dashboard
+  .patient-profile-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.patient-dashboard-right .patient-profile-container-dashboard h1 {
+  font-size: 22px;
+  margin-top: 10px;
+}
+.patient-dashboard-right
+  .patient-profile-container-dashboard
+  .patient-name-profile {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.patient-dashboard-bottom-section {
+  margin: 20px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.patient-dashboard-chart {
+  width: 380px;
+}
+
+.patient-dashboard-bottom-item {
+  width: 50%;
+}
+
+.patient-dashboard-bottom-item:first-child {
+  margin-right: 20px;
+}
+
+.patient-dashboard-bottom-item:nth-child(2) {
+  padding-left: 20px;
+
+  border-radius: 15px;
+}
+
+.patient-dashboard-calendar-img {
+  width: 40px;
+  height: 40px;
+}
+
+.patient-dashboard-appointments {
+  display: flex;
+  flex-direction: column;
+}
+
+.patient-dashboard-appointments-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  padding: 10px 30px;
+  width: 100%;
+  height: 50%;
+  margin-bottom: 14px;
+  background-color: #e1f0ee;
+  min-width: 230px;
+}
+
+.patient-dashboard-appointments-day {
+  font-size: 21px;
+  font-weight: 700;
+  font-family: "Baloo 2";
+  color: #263159;
+  margin-top: 15px;
+}
+
+.patient-dashboard-appointments-date {
+  font-family: "Baloo 2";
+  font-weight: 600;
+  font-size: 18px;
+  color: #263159;
+  margin-top: 15px;
+}
+
+.patient-dashboard-middle-item:last-child .patient-dashboard-middle-item-image {
+  opacity: 0.8;
+}
+
+.link-profile-patient-dashboard {
+  color: white;
+  font-family: "Poppins";
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0px;
+  margin-bottom: 10px;
+  padding: 3px 12px;
+  border-radius: 5px;
+  border: none;
+  background-color: #32799a;
+}
+
+.patient-profile-container-dashboard {
+  font-family: "Poppins";
+  font-size: 14px;
+}
+
+.patient-dashboard-chatbot {
+  border: 2px solid #e5eaef;
+  padding: 15px 15px;
+  margin-right: 20px;
+  margin-top: 10px;
+  border-radius: 15px;
+  padding-bottom: 20px;
+  min-width: 270px;
+}
+
+.patient-dashboard-chatbot p {
+  font-size: 14px;
+  margin-top: 15px;
+  font-family: "Poppins";
+  color: #191c34;
+  text-align: center;
+}
+
+.patient-dashboard-chatbot-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.patient-dashboard-chatbot-title p {
+  margin: 10px 20px;
+  font-size: 22px;
+  font-family: "Baloo 2";
+  font-weight: 600;
+  color: #252b56;
+}
+
+.chatbot-image-dashboard {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.link-chatbot-patient-dashboard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
+
+.link-chatbot-patient-dashboard p {
+  color: #136673;
+  font-size: 14px;
+}
+
+.chatbot-chat-dashboard-icon {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.text-chatbot-patient-dashboard {
+  margin: 5px;
+}
+
+.link-chatbot-patient-dashboard {
+  cursor: pointer;
+}
+
+.link-chatbot-patient-dashboard:hover {
+  text-decoration: underline;
+}
+
+.tooltip-appointment-patient {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-appointment-patient .appointment {
+  visibility: hidden;
+  width: 160px;
+  background-color: #136673;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 105%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.tooltip-appointment-patient:hover .appointment {
+  visibility: visible;
+}
+
+.patient-dashboard-appointments .patient-dashboard-appointments-item {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  .patient-dashboard-top-section {
+    flex-direction: column;
+  }
+
+  .patient-dashboard-top-item {
+    margin-bottom: 10px;
+  }
+
+  .patient-dashboard-content {
+    flex-direction: column;
+  }
+
+  .patient-dashboard-bottom-section {
+    flex-direction: column;
+  }
+
+  .patient-dashboard .menu-patient {
+    width: 80px;
+  }
+
+  .tab-content {
+    margin-left: 95px;
+  }
+
+  .patient-dashboard-content {
+    background-color: white;
+  }
+
+  .patient-dashboard-bottom-item .patient-dashboard-chart {
+    width: 220px;
+    height: 200px;
+  }
+
+  .patient-dashboard-middle-item {
+    margin-bottom: 30px;
+    min-width: 230px;
+  }
+
+  .patient-dashboard-appointments .patient-dashboard-appointments-item {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,109 @@
+.all-tests-page-container {
+  font-family: "Poppins";
+}
+
+.table-therapist-patients {
+  margin: 0px;
+  border: 1px solid #dadeeb;
+  border-radius: 10px;
+}
+
+.table-therapist-patients th {
+  color: #263159;
+  font-weight: 700;
+  font-family: "Baloo 2";
+  font-size: 18px;
+  background-color: #eaecf7;
+}
+
+.table-therapist-patients td {
+  color: #758aae;
+  font-size: 15px;
+}
+
+.all-tests-page-container {
+  margin: 30px;
+}
+
+.new-test-button {
+  margin: 20px 0px;
+  border-radius: 8px;
+  background-color: #46659b;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  margin-left: 0px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.all-tests-page-title {
+  font-size: 30px;
+  font-family: "Baloo 2";
+  font-weight: 700;
+  margin: 0px;
+}
+
+.new-test-button p {
+  margin: 0px;
+}
+
+.new-test-button img {
+  margin-top: 2px;
+}
+
+.new-test-button:hover {
+  background-color: #2e4f7f;
+}
+
+.button-link-test {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.view-test-button,
+.delete-test-table-button {
+  color: white;
+  padding: 3px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  margin: 0px 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.view-test-button {
+  background-color: #5363ac;
+  margin: 0px;
+}
+
+.delete-test-table-button {
+  background-color: #ce1f1f;
+  margin-left: 10px;
+}
+
+.all-tests-therapist-buttons-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top-section-therapist-tests-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.all-tests-page-container {
+  margin-top: 0px;
+}

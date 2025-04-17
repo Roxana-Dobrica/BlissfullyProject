@@ -1,0 +1,28 @@
+.modal-overlay-patient-page .submit-modal-patient-page {
+  background-color: #2d325a;
+  color: white;
+  border-radius: 8px;
+  padding: 7px 25px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.modal-overlay-patient-page .submit-modal-patient-page:hover {
+  background-color: #44486d;
+  color: white;
+  border: 2px solid #44486d;
+}
+
+.modal-overlay-patient-page
+  .modal-add-activity-for-patient
+  .submit-activity-for-patient,
+.modal-overlay-patient-page
+  .modal-add-activity-for-patient
+  .submit-activity-for-patient:hover {
+  background-color: #2d325a;
+  color: white;
+  border-radius: 8px;
+  padding: 7px 25px;
+  font-weight: 400;
+  font-size: 15px;
+}

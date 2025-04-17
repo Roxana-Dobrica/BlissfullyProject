@@ -1,0 +1,26 @@
+.resource-category-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-content p {
+  margin: 0;
+}
+
+.modal-content textarea {
+  margin-bottom: 0px;
+}
+
+.modal-overlay
+  .submit-modal-btn-container
+  .submit-modal-add-resource-for-patient,
+  .modal-overlay
+  .submit-modal-btn-container
+  .submit-modal-add-resource-for-patient:hover {
+  background-color: #2d325a;
+  color: white;
+  border-radius: 8px;
+  padding: 7px 25px;
+  font-weight: 400;
+  font-size: 15px;
+}

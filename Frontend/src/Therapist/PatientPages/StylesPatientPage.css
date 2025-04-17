@@ -1,0 +1,109 @@
+.patient-activities-page-therapist-title {
+  font-family: "Baloo 2";
+  margin-left: 10px;
+  font-weight: 700;
+  margin-top: 20px;
+  font-size: 28px;
+  color: #26335e;
+}
+
+.arrow-back-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.patient-activities-page-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.patient-page-notes-container {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tab-content-wrapper .note-patient-container-therapist-page {
+  background-image: url("/images/Patient/notes7.png");
+  margin-right: 15px;
+  width: 240px;
+  height: 250px;
+  padding: 30px;
+  padding-top: 50px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.therapist-feedbacks-container {
+  margin-left: 20px;
+}
+
+.therapist-feedback-content-patient-see-all {
+  font-weight: 600;
+  color: rgb(54, 76, 113);
+}
+
+.card-resources-patient-page .card-img-patient-resources {
+  height: 150px !important;
+  width: 229px;
+}
+
+.card-resources-patient-page {
+  height: 280px;
+}
+
+.activity-card-title input[type="checkbox"]:disabled + label::before {
+  background: rgb(136, 42, 42);
+}
+input[type="checkbox"]:disabled + label:hover::before {
+  background: rgb(185, 19, 19);
+  border: 1px solid #d4d4d5;
+}
+
+input[type="checkbox"][disabled] {
+  background-color: 1px solid red;
+}
+
+.delete-activity-button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  border-radius: 50%;
+  background-color: rgb(16, 15, 15);
+  color: white;
+  border: 1px solid rgb(16, 15, 15);
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.delete-activity-button-style {
+  background-color: rgb(90, 102, 156) !important;
+  padding-top: 7px;
+  border: 1px solid rgb(90, 102, 156) !important;
+}
+
+.note-patient-container-therapist-page .delete-note-button {
+  border-radius: 50%;
+  background-color: #f4ebe5;
+  color: rgb(12, 12, 12) !important;
+  border: 1px solid rgb(24, 24, 25);
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 12px;
+}

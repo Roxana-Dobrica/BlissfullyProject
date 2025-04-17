@@ -1,0 +1,83 @@
+.modal-content {
+  background-color: #cdd7f2;
+  border: none;
+  display: flex;
+  color: #263159;
+  font-family: "Poppins";
+  max-width: 1100px;
+  border-radius: 14px;
+  padding: 40px;
+}
+
+.modal-content .submit-modal-btn {
+  background-color: #ccedfd;
+  border: none;
+  color: #184e6b;
+  font-weight: 500;
+  max-width: 400px;
+  border-radius: 18px;
+  border: 2px solid #184e6b;
+}
+
+.modal-content .submit-modal-btn:hover {
+  background-color: #bad8e7;
+  color: white;
+  color: black;
+}
+
+.submit-modal-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.close-button {
+  background-color: #cdd7f2;
+  border: 2px solid #263159;
+  color: #263159;
+  margin-bottom: 10px;
+  padding: 1px 6px;
+  border-radius: 50%;
+}
+
+.modal-content label input {
+  max-width: 1000px;
+  border-radius: 12px;
+}
+
+.modal-content label textarea {
+  max-width: 1000px;
+  border-radius: 12px;
+}
+
+.modal-content label select {
+  border: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 3px rgba(245, 244, 244, 0.5);
+}
+
+.modal-content label p {
+  margin-bottom: 5px;
+}
+
+.modal-content h2 {
+  font-family: "Baloo 2";
+  color: #263159;
+  font-size: 26px;
+  text-align: center;
+}
+
+input[type="date"] {
+  outline: none;
+  border: none;
+  padding: 8px;
+  font-size: 14px;
+}
+
+input[type="date"]:focus {
+  outline: none;
+}

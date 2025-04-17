@@ -1,0 +1,54 @@
+.patients-table-add-appointment-modal {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.button-add-appointment {
+  background-color: #263159;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+  padding: 8px 10px;
+  margin-bottom: 20px;
+  width: 150px;
+  font-size: 14px;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.button-view-patients-add-appointment {
+  background-color: #55659e;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+  padding: 8px 10px;
+  margin-bottom: 20px;
+  width: 150px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.appointment-date-label {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.appointment-date-label label {
+  margin-right: 10px;
+}
+
+.table-patients-add-appointment-modal tbody tr:hover {
+  background-color: #aebeea;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.table-patients-add-appointment-modal tbody tr.selected {
+  background-color: #aebeea;
+}
+
+.add-appointment-modal {
+  z-index: 200;
+}

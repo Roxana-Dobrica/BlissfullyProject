@@ -1,0 +1,17 @@
+.container-login .title-register {
+  margin: 15px 0px;
+}
+
+.login-form .register-btn {
+  margin: 15px 0px 15px 0px;
+}
+
+.container-login {
+  padding-bottom: 15px;
+}
+
+.container-page .register-image {
+  margin-top: -35px;
+  padding: 0px;
+  align-self: center;
+}

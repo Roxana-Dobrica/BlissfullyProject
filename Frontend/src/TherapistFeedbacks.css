@@ -1,0 +1,195 @@
+.therapist-feedbacks-patient {
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.therapist-feedback-element h3 {
+  color: #3084b0;
+  margin-top: 10px;
+}
+
+.therapist-feedback-element p {
+  font-size: 15px;
+}
+
+.patient-dashboard-top-section-item {
+  padding: 2px 10px;
+  border-radius: 8px;
+  border: 1px solid #8fbdd6;
+  width: 32%;
+  background-color: #f0f9ff;
+}
+
+.therapist-feedback-element {
+  width: 200px;
+  margin: 20px;
+}
+
+.therapist-feedbacks-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  /* width: 190vh; */
+  font-family: Poppins;
+  margin-right: 20px;
+}
+
+.therapist-feedbacks-patient-btn {
+  color: white;
+  background-color: #46659b;
+  border-radius: 8px;
+  padding: 8px 15px;
+  border: none;
+  font-size: 14px;
+  font-family: "Poppins";
+  align-self: flex-end;
+  margin-right: 30px;
+}
+
+.therapist-feedback-patient {
+  margin-right: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  height: 220px;
+  font-size: 14px;
+  color: #263159;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #e1eff9;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.therapist-feedback-date-patient {
+  margin-top: 10px;
+  color: #628ba0;
+}
+
+.delete-feedback-patient-btn {
+  color: #033f5e;
+  background-color: #ffffff;
+  border: 1px solid #034363;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.therapist-feedback-content-patient {
+  margin-top: 12px;
+}
+
+.therapist-feedback-content-patient {
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+
+.modal-content-journaling {
+  width: 50%;
+  min-width: 210px;
+}
+
+.close-button-feedback-content {
+  color: #033f5e;
+  background-color: #ffffff;
+  border: 1px solid #034363;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-overlay-journaling .feedback-content-description {
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.feedback-content-description-cnt {
+  background-color: white;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.modal-overlay-delete-feedback .modal-content-delete-feedback {
+  width: 40%;
+  min-width: 240px;
+  background-color: white;
+  color: rgb(29, 29, 29);
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-overlay-delete-feedback .modal-content-delete-feedback h2 {
+  color: rgb(12, 12, 12);
+  margin-top: -5px;
+  margin-bottom: 15px;
+}
+
+.confirm-delete-feedback,
+.cancel-delete-feedback {
+  border-radius: 6px;
+  padding: 6px 20px;
+  border: none;
+  font-size: 14px;
+  font-family: "Poppins";
+  align-self: flex-end;
+  margin-right: 10px;
+  width: 80px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirm-delete-feedback {
+  color: white;
+  background-color: #db2436;
+}
+
+.cancel-delete-feedback {
+  background-color: white;
+  border: 1px solid #aca9aa;
+}
+
+.delete-feedback-modal-buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  align-self: flex-end;
+}
+
+.therapist-feedback-patient-account:first-child {
+  margin-left: -20px;
+}
+
+.therapist-feedback-patient-account .therapist-feedback-content-patient {
+  font-weight: 500;
+}
+.therapist-feedback-patient:first-child {
+  margin-left: 0px;
+}
+
+.prev-button {
+  margin: 20px;
+}

@@ -1,0 +1,63 @@
+.modal-overlay-journaling .modal-content-journaling {
+  background-color: #cdd7f2;
+  border: none;
+  display: flex;
+  color: #263159;
+  font-family: "Poppins";
+}
+
+.label-date-journaling,
+.label-title-journaling,
+.label-content-journaling,
+.label-feelings-journaling {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-overlay-journaling .modal-content-journaling h2 {
+  font-family: "Baloo 2";
+  color: #263159;
+  font-size: 26px;
+}
+
+.modal-content-journaling .form-btn-journaling {
+  background-color: #263159;
+  border: none;
+  width: 20%;
+  border-radius: 10px;
+  align-self: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+  min-width: 180px;
+}
+
+.modal-content-journaling .form-btn-journaling:hover {
+  background-color: #46659b;
+}
+
+.modal-overlay-journaling .close-button-journaling {
+  background-color: #cdd7f2;
+  border: 2px solid #263159;
+  color: #263159;
+  margin-bottom: 10px;
+  padding: 1px 6px;
+}
+
+.label-title-journaling {
+  margin-bottom: 0px;
+}
+
+.modal-overlay-journaling .modal-add-journal-entry-page {
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  .modal-content-journaling {
+    width: 90%;
+  }
+
+  .form-btn-journaling {
+    width: 300px;
+  }
+}

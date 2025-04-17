@@ -1,0 +1,151 @@
+.patient-activities-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.patient-activities-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+
+.activity-card {
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  padding-top: 24px;
+  height: 32vh;
+  width: 200px;
+  border-radius: 10px;
+  margin-left: 23px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.activity-card:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.patient-activities-container .activity-card-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #263159;
+  margin-bottom: 5px;
+  font-family: "Baloo 2";
+  text-align: center;
+}
+
+.patient-activities-title {
+  font-size: 25px;
+  font-weight: 700;
+  color: #263159;
+  margin-bottom: 10px;
+  margin: 23px;
+  font-family: "Baloo 2";
+}
+
+.patient-activities-container .activity-card p {
+  font-size: 15px;
+  color: #263159;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.activity-card-blue {
+  background-color: #e1eff9;
+}
+
+.activity-card-green {
+  background-color: #e0f0ed;
+}
+
+.activity-card-yellow {
+  background-color: #f0f9cb;
+}
+
+.activity-card-red {
+  background-color: #f1e4ed;
+}
+
+.activity-complete-checkbox {
+  accent-color: #03718c;
+  transform: scale(1.6);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.activities-bar {
+  align-self: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-family: "Poppins";
+  font-size: 14px;
+}
+
+.activity-bar-button {
+  background-color: #213673;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  width: 110px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.activity-card-date-added {
+  font-size: 13px;
+  font-family: "Poppins";
+  align-self: center;
+  color: rgb(145, 145, 145);
+  margin-top: 10px;
+}
+
+.activity-card-description,
+.activity-card-due-date {
+  font-size: 13px;
+  font-family: "Poppins";
+  text-align: center;
+  margin-top: 10px;
+}
+
+.recent-activities,
+.all-activities {
+  margin-left: 23px;
+  color: #263159;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+
+.all-activities {
+  margin-top: 20px;
+}
+
+.activity-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.pagination {
+  align-self: flex-end;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.pagination button {
+  background-color: white;
+  border: none;
+  color: #777fbb;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .activities-bar {
+    margin-right: 50%;
+    margin-left: 50%;
+  }
+}

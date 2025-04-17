@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+.calendar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.react-calendar {
+  border: none;
+  width: 100%;
+  font-size: 12px;
+  font-family: "Poppins";
+  border: 2px solid #e7e6e6;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 300px;
+  height: 260px;
+}
+
+.react-calendar__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.react-calendar__navigation button {
+  background: none;
+  border: none;
+  color: #263159;
+  font-size: 15px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.react-calendar__navigation button:disabled {
+  color: #2e902c;
+}
+
+.react-calendar__navigation button:hover:not(:disabled) {
+  color: #263159;
+}
+
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+.react-calendar__tile {
+  max-width: initial;
+  padding: 10px;
+  background: none;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.react-calendar__tile:disabled {
+  background-color: #f0f0f0;
+  color: #ccc;
+}
+
+.react-calendar__tile:enabled:hover {
+  background-color: #f0f0f0;
+}
+
+.react-calendar__tile--now {
+  background: #3d4680;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.react-calendar__tile--now:enabled:hover {
+  background: #0056b3;
+}
+
+.react-calendar__tile--active {
+  background: #007bff;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.react-calendar__tile--active:enabled:hover {
+  background: #0056b3;
+}
+
+.react-calendar__tile {
+  color: inherit; 
+}
+
+.react-calendar__tile--hasActive,
+.react-calendar__tile--now,
+.react-calendar__tile--active {
+  color: #fff;
+}
+
+.react-calendar__month-view .react-calendar__tile--future {
+  color: red !important;
+}
+
+.react-calendar__month-view__weekdays__weekday abbr {
+  text-decoration: none;
+}

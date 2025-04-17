@@ -1,0 +1,51 @@
+.assign-test-modal-container .modal-content-assign-test {
+  background-color: #cdd7f2;
+  border: none;
+  display: flex;
+  color: #263159;
+  font-family: "Poppins";
+}
+
+.assign-test-modal-container .assign-test-modal-title {
+  color: #263159;
+}
+
+.close-button-assign-test-modal {
+  background-color: #cdd7f2;
+  border: 2px solid #263159;
+  color: #263159;
+  margin-bottom: 10px;
+  padding: 1px 6px;
+}
+
+.table-patients-assign-test-modal th,
+.table-patients-assign-test-modal td {
+  padding: 3px 30px;
+}
+
+.assign-test-to-patient-btn {
+  background-color: #263159;
+}
+
+.unassign-test-from-patient-btn {
+  background-color: #b30036;
+}
+
+.assign-test-modal-btn {
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 12px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "Poppins";
+  margin-top: 0px;
+  width: 120px;
+}
+
+.assign-test-modal-container .form-patient-search:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #b8c1e0;
+  border-color: #b8c1e0;
+}

@@ -1,0 +1,111 @@
+.chatbot-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.chat-header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.chat-header h1 {
+  font-size: 24px;
+  font-family: "Baloo 2";
+  font-weight: 700;
+  color: #263159;
+}
+
+.chat-header p {
+  color: #6473b4;
+  font-weight: 500;
+  margin-left: 1px;
+}
+
+.chatbot-messages {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  overflow-y: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  scrollbar-width: auto;
+  scrollbar-color: #4d5699 #f1f1f1;
+}
+
+.chatbot-message {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 5px;
+  padding: 10px 15px;
+  max-width: 75%;
+}
+
+.user-message {
+  background-color: #555faa;
+  align-self: flex-end;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: white;
+}
+
+.bot-message {
+  background-color: #e4e7fa;
+  align-self: flex-start;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: #263159;
+}
+
+.chatbot-user-input {
+  display: flex;
+  flex-direction: row;
+}
+
+.chatbot-user-input button {
+  background-color: #555faa;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 10px;
+}
+
+.send-message-icon {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+
+.chatbot-user-input input {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  height: 40px;
+}
+
+.chatbot-image-chat {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.chatbot-header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}

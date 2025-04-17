@@ -1,0 +1,307 @@
+.therapist-dashboard-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.therapist-dashboard-center {
+  width: 80%;
+  margin: 20px;
+  margin-top: 2px;
+}
+
+.therapist-dashboard-right {
+  width: 23%;
+  margin-left: 0px;
+}
+
+.therapist-dashboard-center-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.therapist-dashboard-center-top-item {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  min-width: 220px;
+  padding: 20px;
+  border-radius: 12px;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.therapist-dashboard-center-top-item:first-child {
+  background-color: #d1d6f5;
+}
+
+.therapist-dashboard-center-top-item:nth-child(2) {
+  background-color: #d0dff6;
+}
+
+.therapist-dashboard-center-top-item:last-child {
+  background-color: #e0f0ee;
+}
+
+.therapist-dashboard-see-all {
+  margin-bottom: 0px;
+  font-family: "Poppins";
+  color: #263159;
+  font-size: 15px;
+}
+
+.therapist-dashboard-number-value {
+  font-size: 30px;
+  color: #263159;
+  font-weight: 700;
+  font-family: "Baloo 2";
+}
+
+.therapist-dashboard-number-title {
+  font-size: 17px;
+  color: #263159;
+  font-family: "Baloo 2";
+  font-weight: 600;
+}
+
+.therapist-dashboard-center-top-item p {
+  margin-bottom: 7px;
+  margin-top: 0px;
+}
+
+.therapist-dashboard-center-top-item p:last-child {
+  margin-bottom: 0px;
+}
+
+.therapist-dashboard-center-top-item h1 {
+  margin-bottom: 0px;
+}
+
+.therapist-dashboard-center-top-item .center-top-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: -5px;
+}
+
+.therapist-dashboard-center-top-item .center-top-title img {
+  width: 40px;
+  height: 40px;
+  margin-top: -5px;
+  margin-right: -10px;
+  margin-left: 10px;
+}
+
+.therapist-dashboard-patients-table-title {
+  color: #263159;
+  font-family: "Baloo 2";
+  font-size: 25px;
+  font-weight: 700;
+  margin: 25px 0px 5px 0px;
+}
+
+.therapist-dashboard-patients-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+  font-family: "Poppins";
+  margin-top: 30px;
+}
+
+.therapist-dashboard-patients-table th,
+.therapist-dashboard-patients-table td {
+  border: 1px solid #e2e4e9;
+  padding: 8px;
+  text-align: left;
+}
+
+.therapist-dashboard-patients-table th {
+  background-color: #3d4680;
+  color: rgb(16, 11, 52);
+  font-family: "Baloo 2";
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.therapist-dashboard-bottom {
+  display: flex;
+  justify-content: row;
+  margin-top: 30px;
+}
+
+.therapist-dashboard-calendar,
+.therapist-dashboard-news,
+.therapist-dashboard-notes {
+  width: 31%;
+  min-width: 120px;
+}
+
+.therapist-dashboard-notes {
+  margin: 0px 30px;
+}
+
+.therapist-dashboard-notes-container {
+  width: 290px;
+  height: 260px;
+  border-radius: 10px;
+  opacity: 0.9;
+  border: 2px solid #e7e6e6;
+  padding: 20px;
+}
+
+
+.therapist-dashboard-news-image img {
+  width: 200px;
+  height: 180px;
+  border-radius: 10px;
+  opacity: 0.9;
+  padding: 10px;
+  padding-top: 0px;
+}
+.therapist-dashboard-news-container {
+  width: 290px;
+  height: 260px;
+  border-radius: 10px;
+  opacity: 0.9;
+  border: 2px solid #e7e6e6;
+  padding: 20px;
+}
+
+.title-bottom-therapist-dashboard {
+  color: #263159;
+  font-family: "Baloo 2";
+  font-size: 25px;
+  font-weight: 700;
+  margin: 20px 0px 5px 0px;
+}
+
+.therapist-dashboard-latest-news-title {
+  color: #263159;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.title-bottom-therapist-dashboard {
+  margin-top: 0px;
+}
+
+.therapist-dashboard-news-read-more {
+  font-size: 14px;
+  margin: 0px;
+  color: #777fbb;
+  font-family: "Poppins";
+}
+
+.therapist-dashboard-patient-details {
+  color: #2d325a;
+  border-radius: 5px;
+  border: 1px solid #2d325a;
+  background-color: white;
+  margin-left: 25%;
+}
+
+.table-therapist-patients-dashboard {
+  border-collapse: collapse;
+}
+
+.table-therapist-patients-dashboard th,
+.table-therapist-patients-dashboard td {
+  border: none;
+}
+
+.table-therapist-patients-dashboard thead {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.therapist-dashboard-container
+  .therapist-dashboard-center
+  .table-therapist-patients-dashboard
+  thead
+  th {
+  background-color: white;
+}
+
+.therapist-dashboard-notes-text {
+  font-size: 14px;
+  font-family: "Poppins";
+  color: #758ab5;
+}
+
+.therapist-dashboard-news-info {
+  margin-top: -20px;
+}
+
+.therapist-dashboard-news-image {
+  margin-top: -5px;
+}
+
+.therapist-dashboard-bottom {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.table-therapist-patients {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-therapist-patients th,
+.table-therapist-patients td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+  .therapist-dashboard-center-top {
+    flex-direction: column;
+  }
+
+  .therapist-dashboard-bottom {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .therapist-dashboard-notes {
+    margin: 20px 0px;
+  }
+
+  .therapist-dashboard-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .therapist-dashboard-right {
+    margin-left: 20px;
+  }
+
+  .therapist-dashboard-center-top-item {
+    margin-bottom: 10px;
+  }
+
+  .table-therapist-patients th:nth-child(4),
+  .table-therapist-patients td:nth-child(4),
+  .table-therapist-patients th:nth-child(5),
+  .table-therapist-patients td:nth-child(5) {
+    display: none;
+  }
+
+  .table-therapist-patients td:nth-child(2),
+  .table-therapist-patients td:nth-child(3) {
+    white-space: normal;
+  }
+
+  .table-therapist-patients th,
+  .table-therapist-patients td {
+    text-align: center;
+  }
+
+  .therapist-dashboard-center-top-item {
+    width: 230px;
+  }
+}

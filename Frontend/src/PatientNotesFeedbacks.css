@@ -1,0 +1,50 @@
+.patient-notes-feedbacks .tab-content {
+  margin-left: 0px;
+}
+
+.nav-link-notes-feedbacks {
+  border: 1px solid #c3c3c7;
+  color: #c3c3c7;
+  margin: 5px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 14.5px;
+  border-radius: 8px !important;
+  width: 240px;
+}
+
+.nav-link-notes-feedbacks:hover {
+  color: #035e8c;
+}
+
+.patient-notes-feedbacks .nav-link.active {
+  background-color: #035e8c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notes-feedbacks-patient-title {
+  font-family: "Baloo 2";
+  color: #263159;
+  font-weight: 700;
+  margin: 25px 30px 10px 30px;
+  font-size: 25px;
+}
+
+.no-notes-available {
+  font-family: "Poppins";
+  color: #777fbb;
+  font-weight: 500;
+  margin: 25px 30px 10px 30px;
+  font-size: 15.5px;
+}
+
+@media (max-width: 768px) {
+  .patient-nav-bar-notes-feedbacks {
+    flex-direction: column;
+    margin-right: 50%;
+    margin-left: 50%;
+  }
+}

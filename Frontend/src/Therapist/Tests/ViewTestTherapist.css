@@ -1,0 +1,64 @@
+.view-test-container {
+  background-color: #eef1f7;
+  padding: 30px;
+  padding-top: 20px;
+  border-radius: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.view-test-title {
+  font-family: "Baloo 2";
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.question-options {
+  display: flex;
+  flex-direction: line;
+  flex-wrap: wrap;
+}
+
+.question-options-container {
+  margin-right: 40px;
+}
+
+.text-container-view-test {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #a6abbf;
+}
+
+.view-test-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.view-test-therapist-buttons-container {
+  margin-bottom: 8px;
+}
+
+.view-test-btn {
+  background-color: #46659b;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 7px 12px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "Poppins";
+  margin-top: 0px;
+}
+
+.delete-test-btn {
+  margin-left: 10px;
+  background-color: #e73651;
+}
+
+.index-question-view-test {
+  font-size: 20px;
+  margin-left: 0px;
+}

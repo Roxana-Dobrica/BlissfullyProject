@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Quicksand:wght@300..700&display=swap");
+
+.custom-shape-divider-bottom-1713469561 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1713469561 svg {
+  position: relative;
+  display: block;
+  width: calc(124% + 1.3px);
+  height: 64px;
+}
+
+.custom-shape-divider-bottom-1713469561 .shape-fill {
+  fill: #ffffff;
+}
+
+.link-to-login-page {
+  text-decoration: none;
+}
+
+.top-section-landing-page {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #2d325a;
+  padding-bottom: 35px;
+}
+
+.top-section-landing-page h1 {
+  font-family: "Baloo 2";
+  font-weight: 700;
+  font-size: 42px;
+  color: white;
+}
+
+.top-section-landing-page p {
+  color: white;
+  font-family: "Poppins";
+  margin: 20px 0px;
+}
+
+.top-section-image-landing-page {
+  width: 320px;
+  height: auto;
+}
+
+.top-section-left-landing-page {
+  width: 60%;
+  padding: 100px 120px;
+  padding-right: 20px;
+}
+
+.top-section-right-landing-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 120px;
+}
+
+.menu-landing-page {
+  background-color: #2d325a;
+  padding: 10px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  color: #bcbfdc;
+  border-bottom: 3px solid #333966;
+}
+
+.logo-section {
+  height: 50px;
+}
+
+.logo-image {
+  width: 200px;
+  height: auto;
+}
+
+.menu-section-landing-page {
+  display: flex;
+  flex-direction: row;
+  margin: 14px;
+  margin-bottom: 2px;
+}
+
+.menu-section-landing-page ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu-section-landing-page .menu-list {
+  margin-right: 30px;
+}
+
+.menu-section-landing-page .menu-list .menu-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.menu-section-landing-page .menu-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.menu-section-landing-page .menu-list-login-register {
+  margin-right: 20px;
+}
+
+.menu-list-login-register .menu-button-sign-up {
+  background-color: #bcbfdc;
+  color: #2d325a;
+  border: none;
+  padding: 5px 12px;
+  padding-bottom: 8px;
+  margin: -5px 0px 0px 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.top-section-landing-page .top-section-button {
+  background-color: #035e8c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 10px;
+  font-family: "Poppins";
+}
+
+.middle-section-landing-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 80px 120px;
+}
+
+.middle-section-landing-page .middle-section-image {
+  width: 120px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.middle-section-landing-page .middle-section-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 33.3%;
+}
+
+.middle-section-landing-page .middle-section-element h3 {
+  color: #263159;
+  font-family: "Baloo 2";
+  font-weight: 700;
+  font-size: 20px;
+  margin: 20px;
+  margin-bottom: 10px;
+}
+
+.middle-section-landing-page .middle-section-element p {
+  color: #314d5c;
+}
+
+.middle-section-landing-page-2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #d7def3;
+  padding-top: 10px;
+}
+
+.middle-section-element-2 ul {
+  list-style-type: none;
+  padding: 40px;
+  background-color: white;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.middle-section-landing-page-2 h2 {
+  font-family: "Baloo 2";
+  font-weight: 700;
+  font-size: 40px;
+  color: #263159;
+  text-align: center;
+  margin: 40px;
+}
+
+.middle-section-element-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-section-element-2 li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.middle-section-element-2 li p {
+  color: #263159;
+  margin-left: 10px;
+}
+
+.middle-section-element-2 li img {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 7px;
+}
+
+.footer-landing-page {
+  background-color: #2d325a;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  padding-top: 10px;
+}
+
+.footer-landing-page p {
+  color: white;
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.logo-image-footer {
+  margin: 20px;
+  align-self: center;
+}
+
+.social-media-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.social-media-logo {
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.facebook-logo {
+  border-radius: 7px;
+}
+
+.menu-list-login-register .menu-item-log-in {
+  color: #bcbfdc;
+}
+
+.middle-section-landing-page-2 {
+  font-family: "Poppins";
+  font-size: 15px;
+}
+
+.middle-section-element:nth-child(4){
+    margin-bottom: 20px;
+    
+}
+
+@media (max-width: 768px) {
+  .middle-section-landing-page{
+    display:flex;
+    flex-wrap:wrap;
+  }  
+
+  .middle-section-landing-page .middle-section-element {
+    width: 100%;
+  }
+
+  .top-section-landing-page{
+    display:flex;
+    flex-direction:column-reverse;
+    align-items:center;
+  }
+
+  .top-section-right-landing-page{
+    align-self:center;
+  }
+}
+

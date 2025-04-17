@@ -1,0 +1,36 @@
+.form-modal-add-question-test {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-modal-add-question-test label {
+  width: 100%;
+}
+
+.form-modal-add-question-test .submit-modal-add-question-test,
+.form-modal-add-question-test .submit-modal-add-question-test:hover
+ {
+  background-color: #263159;
+  color: white;
+  padding: 3px 20px;
+  border-radius: 6px;
+  font-weight: 400;
+}
+
+.add-option-test-btn {
+  background-color: #536eac;
+  color: white;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.label-question-add-item {
+  margin-top: 10px;
+}

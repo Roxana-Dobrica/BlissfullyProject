@@ -1,0 +1,53 @@
+.show-activity-container .modal-content-selected-activity {
+  width: 500px;
+  height: auto;
+  background-color: #2d325a;
+  color: white;
+  border: none;
+}
+
+.selected-activity-info {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.selected-activity-title {
+  align-self: center;
+  font-size: 22px;
+  margin-bottom: 0px;
+  font-family: "Baloo 2";
+  font-weight: 700;
+}
+
+.selected-activity-description {
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.show-activity-container .close-button-selected-activity {
+  background-color: #2d325a;
+  color: white;
+  border: 2px solid white;
+  font-size: 10px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selected-activity-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin: 0px;
+}
+
+.selected-activity-image img {
+  width: 45px;
+  height: auto;
+}

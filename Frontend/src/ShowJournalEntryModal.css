@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Handlee&family=Parisienne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Handlee&family=Parisienne&family=Sedan:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Handlee&family=Parisienne&family=Quicksand:wght@300..700&family=Sedan:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Great+Vibes&family=Handlee&family=Parisienne&family=Quicksand:wght@300..700&family=Sedan:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Great+Vibes&family=Handlee&family=Parisienne&family=Quicksand:wght@300..700&family=Sedan:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Great+Vibes&family=Handlee&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Parisienne&family=Quicksand:wght@300..700&family=Sedan:ital@0;1&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Great+Vibes&family=Handlee&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Parisienne&family=Quicksand:wght@300..700&family=Sedan:ital@0;1&family=Varela&display=swap");
+
+.show-journal-entry-container .show-journal-entry-modal-content {
+  width: 700px;
+  height: 700px;
+  background-image: url("./images/PatientJournaling/journall-page3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.selected-journal-entry-date,
+.selected-journal-entry-title,
+.selected-journal-entry-content,
+.selected-journal-entry-feelings {
+  color: black;
+}
+
+.selected-journal-entry-date {
+  text-align: end;
+  font-family: "Parisienne", cursive;
+  font-weight: 600;
+  font-size: 18px;
+  color: #2d325a;
+}
+
+.selected-journal-entry-title {
+  text-align: center;
+  font-family: "Parisienne", cursive;
+  font-weight: 400;
+  font-size: 30px;
+  color: #2d325a;
+  margin-top: 5px;
+}
+
+.selected-journal-entry-content {
+  margin-top: 14px;
+  color: #2d325a;
+  font-family: "DM Sans";
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.52;
+}
+
+.selected-journal-entry-actions {
+  align-self: flex-end;
+}
+
+.selected-journal-entry-info {
+  margin-top: 20px;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.selected-journal-entry-feelings {
+  margin-top: 17px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #2d325a;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "DM Sans";
+}
+
+.feeling-selected-journal-entry {
+  background-color: #c6e8e1;
+  border-radius: 20px;
+  padding: 2px 10px;
+  margin: 3px;
+  font-family: "Poppins";
+  font-size: 14px;
+}
+
+.selected-journal-entry-actions {
+  margin-left: 10px;
+}
+
+.top-section-selected-journal-entry .selected-journal-entry-actions button {
+  cursor: pointer;
+  border-radius: 10px;
+  width: 70px;
+  font-size: 14px;
+  margin-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border: none;
+}
+
+.edit-selected-journal-entry-btn {
+  background-color: #ced6ee;
+}
+
+.delete-selected-journal-entry-btn {
+  background-color: #cee4f3;
+}
+
+.top-section-selected-journal-entry .show-journal-entry-modal-close-button {
+  cursor: pointer;
+  background-color: #cdd7f2;
+  border: 1px solid #263159;
+  color: #263159;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 2px 3px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
